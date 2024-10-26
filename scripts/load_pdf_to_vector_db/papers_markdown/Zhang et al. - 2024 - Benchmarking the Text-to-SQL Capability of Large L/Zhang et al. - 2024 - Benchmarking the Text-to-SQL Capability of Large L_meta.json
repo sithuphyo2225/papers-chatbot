@@ -1,0 +1,400 @@
+{
+    "languages": null,
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Traditional Learning-based Text-to-SQL Methods",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "LLM-based Text-to-SQL Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Datasets and Evaluation Metrics",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Settings",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Task Formulation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Evaluation Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Dataset Construction",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Text2SQL",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Zero-shot Prompting Optimization.",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "End-to-End Text2SQL evaluation.",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "SQL Debugging",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Debugging Dataset",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Debug Evaluation",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "SQL Optimization",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "SQL-to-Text",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Schema Linking",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Evaluation Metric for Schema Linking: RES",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Schema Linking Evaluation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Prompt Template",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Text-to-SQL",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "SQL Debugging",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "SQL Optimization",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "SQL-to-Text",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Schema Linking",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Supplemental Evaluation Results",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Additional Experimental Results on ``BigTable-0.2k''",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Additional Experimental Results on BIRD",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Details for Sub-tasks",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Details for Evaluation Metrics",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Details for SQL Debugging",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Details for SQL Optimization",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Details for SQL-to-Text",
+            "level": 1,
+            "page": 25
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 12,
+            "unsuccessful_ocr": 0,
+            "equations": 12
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Benchmarking the Text-to-SQL Capability of Large\nLanguage Models: A Comprehensive Evaluation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Traditional Learning-based Text-to-SQL Methods",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 LLM-based Text-to-SQL Methods",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Datasets and Evaluation Metrics",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Settings",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Task Formulation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Evaluation Models",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Dataset Construction",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 Text2SQL",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Zero-shot Prompting Optimization.",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.2 End-to-End Text2SQL evaluation.",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 SQL Debugging",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2.1 Debugging Dataset",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2.2 Debug Evaluation",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.3 SQL Optimization",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.4 SQL-to-Text",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.5 Schema Linking",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.5.1 Evaluation Metric for Schema Linking: RES",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.5.2 Schema Linking Evaluation",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A Prompt Template",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.1 Text-to-SQL",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.2 SQL Debugging",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.3 SQL Optimization",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.4 SQL-to-Text",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "A.5 Schema Linking",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B Supplemental Evaluation Results",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B.1 Additional Experimental Results on \"BigTable-0.2k\"",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "B.2 Additional Experimental Results on BIRD",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "C Details for Sub-tasks",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.1 Details for Evaluation Metrics",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "C.2 Details for SQL Debugging",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "C.3 Details for SQL Optimization",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "C.4 Details for SQL-to-Text",
+            "level": 3,
+            "page": 25
+        }
+    ]
+}

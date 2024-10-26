@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  chatbot_app:
+    build: chatbot_app/.
+    container_name: chatbot_app
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./chatbot_app/:/app

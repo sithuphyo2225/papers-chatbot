@@ -1,0 +1,500 @@
+{
+    "languages": null,
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "A survey on deep learning approaches for text-to-SQL",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 The text-to-SQL problem",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 NL challenges",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 SQL challenges",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Datasets and evaluation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Domain-specific text-to-SQL datasets",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Cross-domain text-to-SQL datasets",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Evaluation metrics",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 Taxonomy",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Schema linking",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1.1 Query candidate discovery",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.1.2 Database candidate discovery",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.1.3 Candidate matching",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.2 Natural language representation",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.2.1 Word embeddings",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2.2 Pre-trained language models",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3 Input encoding",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.3.1 Separate NLQ and column encodings",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.2 Input serialisation",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.3 Encoding NLQ with each column separately",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.3.4 Schema graph encoding",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.4 Output decoding",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.4.1 Sequence-based approaches",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.4.2 Sketch-based slot-filling approaches",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.4.3 Grammar-based approaches",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.5 Neural training",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.6 Output refinement",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "5 Neural architecture",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "6 Systems",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "6.1 The dawn of an era",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "6.2 Sketch generation",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "6.3 Graph representations",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "6.4 Using intermediate languages",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "6.5 The age of BERT",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.6 Schema linking focus",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.7 The return of the sequence",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "7 Discussion and higher-level comparison",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "8 Research challenges",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "8.1 Benchmarks",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "8.2 System efficiency and technical feasibility",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "8.3 Universality of the solution",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "8.4 Data augmentation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "8.5 The path to data democratisation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "9 Conclusions",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 28
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A survey on deep learning approaches for text-to-SQL",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 The text-to-SQL problem",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 NL challenges",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 SQL challenges",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Datasets and evaluation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Domain-specific text-to-SQL datasets",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Cross-domain text-to-SQL datasets",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Evaluation metrics",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Taxonomy",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Schema linking",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.1.1 Query candidate discovery",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.1.2 Database candidate discovery",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.1.3 Candidate matching",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.2 Natural language representation",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2.1 Word embeddings",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2.2 Pre-trained language models",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3 Input encoding",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.1 Separate NLQ and column encodings",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.2 Input serialisation",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.3 Encoding NLQ with each column separately",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.3.4 Schema graph encoding",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.4 Output decoding",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.4.1 Sequence-based approaches",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "4.4.2 Sketch-based slot-filling approaches",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "4.4.3 Grammar-based approaches",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "4.5 Neural training",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.6 Output refinement",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "5 Neural architecture",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "6 Systems",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "6.1 The dawn of an era",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6.2 Sketch generation",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "6.3 Graph representations",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "6.4 Using intermediate languages",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "6.5 The age of BERT",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "6.6 Schema linking focus",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "6.7 The return of the sequence",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "7 Discussion and higher-level comparison",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "8 Research challenges",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "8.1 Benchmarks",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "8.2 System efficiency and technical feasibility",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "8.3 Universality of the solution",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "8.4 Data augmentation",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "8.5 The path to data democratisation",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "9 Conclusions",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 28
+        }
+    ]
+}
